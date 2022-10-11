@@ -1,0 +1,6 @@
+module react_native_panorama_view {
+  umbrella header "react-native-panorama-view-umbrella.h"
+
+  export *
+  module * { export * }
+}

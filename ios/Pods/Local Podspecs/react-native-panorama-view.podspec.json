@@ -1,0 +1,28 @@
+{
+  "name": "react-native-panorama-view",
+  "version": "1.0.1",
+  "summary": "A simple component for displaying panoramic images in your React Native app.",
+  "homepage": "https://github.com/lightbasenl/react-native-panorama-view",
+  "license": "MIT",
+  "authors": {
+    "name": "Rody Molenaar",
+    "email": "rody@lightbase.nl",
+    "url": "https://github.com/lightbasenl"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/lightbasenl/react-native-panorama-view.git",
+    "tag": "1.0.1"
+  },
+  "source_files": "ios/**/*.{h,m,swift}",
+  "swift_versions": "5.3",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "React": [
+
+    ]
+  },
+  "swift_version": "5.3"
+}

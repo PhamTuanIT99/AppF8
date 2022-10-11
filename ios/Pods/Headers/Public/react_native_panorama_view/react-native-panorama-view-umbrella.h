@@ -1,0 +1,1 @@
+../../../Target Support Files/react-native-panorama-view/react-native-panorama-view-umbrella.h
