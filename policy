@@ -22,3 +22,24 @@ I. Quy trình cài đặt React Native trên Windows
   + npm install -g react-native-cli
   Vậy là bạn đã hoàn thành cài đặt React native
   
+II. Chạy ứng dụng trong React Native
+  Khởi động lại máy tính của bạn.Bạn có thể chạy ứng dụng của mình theo hai cách.
+- Cách 1: Sử dụng thiết bị vật lý.
+  Đảm bảo thiết bị của bạn đang ở chế độ developer. Nếu không, hãy chuyển đến Cài đặt → About phone rồi chạm vào Build number row ở dưới cùng bảy lần. Sau đó, bạn có thể quay lại Setting → Tùy chọn nhà phát triển để bật "Gỡ lỗi USB".
+- Cách 2: Kết nối thiết bị của bạn với hệ thống qua USB.
+  Bạn chỉ được kết nối một thiết bị tại một thời điểm. Chạy lệnh sau trong dấu nhắc lệnh để chạy ứng dụng của bạn. react-native run -android
+  Chỉ chạy lệnh trên trong thư mục dự án của bạn. ví dụ: đường dẫn dự án và lệnh trên.
+  Khi bạn đã cài đặt ứng dụng của mình bằng USB thì bạn có thể gỡ lỗi ứng dụng của mình bằng WiFi.
+  Để gỡ lỗi ứng dụng của bạn bằng WiFi, cả thiết bị và hệ thống của bạn phải ở trong cùng một mạng WiFi.
+  Mở ứng dụng của bạn trên thiết bị, bạn sẽ gặp lỗi báo màu đỏ, cứ bỏ qua nó
+  Chuyển đến menu developer trong cài đặt.
+  Đi tới Cài đặt dành cho nhà phát triển → Gỡ lỗi máy chủ và cổng máy chủ cho thiết bị.
+  Nhập địa chỉ IP của máy và cổng của máy chủ nhà phát triển cục bộ (ví dụ: 10.0.1.1:8081).
+  Chạy lệnh ipconfig trong dấu nhắc lệnh.
+  Địa chỉ Ipv4 là địa chỉ ip của bạn.
+  Máy chủ dành cho nhà phát triển cục bộ thường là 8081.
+  Quay lại menu Nhà phát triển và chọn Tải lại JS.
+  Sử dụng thiết bị ảo.
+  Tạo thiết bị ảo trong studio android
+  Khi thiết bị ảo được mở, hãy chạy lệnh dưới đây trong dấu nhắc lệnh.
+  react-native run-android
